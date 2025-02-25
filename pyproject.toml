@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "FunPayParser"
+version = "0.1.0"
+description = "FunPayParser with SQLite integration"
+authors = ["goshva"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"  # Using latest stable Python version
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
